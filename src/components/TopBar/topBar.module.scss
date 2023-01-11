@@ -1,0 +1,23 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid #bbb;
+  > a {
+    margin-left: 50px;
+    font: 900 25px arial;
+    color: #0186da;
+    text-shadow: 0 2px 2px #ddd;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.logout {
+  height: 100%;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 0 20px;
+  border-radius: 0;
+}

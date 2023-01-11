@@ -1,0 +1,40 @@
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  > h1 {
+    font: 900 50px arial;
+    color: #0186da;
+    text-shadow: 0 2px 2px #ddd;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.field {
+  margin-bottom: 10px;
+}
+
+.login {
+  padding-right: 50px;
+  border-right: 2px solid #bbb;
+  display: flex;
+  form {
+    flex: 1;
+  }
+  button {
+    margin-top: auto;
+  }
+}
+
+.register {
+  padding-left: 50px;
+}
+.error {
+  color: red;
+}
